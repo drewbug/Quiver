@@ -1,0 +1,13 @@
+<?xml version='1.0'?>
+<signatures version='1.0'>
+<function name='AudioServicesStopSystemSound'>
+<arg declared_type='SystemSoundID' name='inSystemSoundID' type='L' type64='I'/>
+<retval declared_type='void' type='v'/>
+</function>
+<function name='AudioServicesPlaySystemSoundWithVibration'>
+<arg declared_type='SystemSoundID' name='inSystemSoundID' type='L' type64='I'/>
+<arg declared_type='id' name='arg' type='@'/>
+<arg declared_type='NSDictionary*' name='vibratePattern' type='@'/>
+<retval declared_type='void' type='v'/>
+</function>
+</signatures>
